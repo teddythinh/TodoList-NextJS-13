@@ -139,7 +139,6 @@ const config = {
     "db"
   ],
   "activeProvider": "sqlite",
-  "postinstall": false,
   "inlineDatasources": {
     "db": {
       "url": {
@@ -149,8 +148,7 @@ const config = {
     }
   },
   "inlineSchema": "Ly8gVGhpcyBpcyB5b3VyIFByaXNtYSBzY2hlbWEgZmlsZSwKLy8gbGVhcm4gbW9yZSBhYm91dCBpdCBpbiB0aGUgZG9jczogaHR0cHM6Ly9wcmlzLmx5L2QvcHJpc21hLXNjaGVtYQoKZ2VuZXJhdG9yIGNsaWVudCB7CiAgcHJvdmlkZXIgPSAicHJpc21hLWNsaWVudC1qcyIKICBvdXRwdXQgPSAiLi4vc3JjL2dlbmVyYXRlZC9jbGllbnQiCn0KCmRhdGFzb3VyY2UgZGIgewogIHByb3ZpZGVyID0gInNxbGl0ZSIKICB1cmwgICAgICA9IGVudigiREFUQUJBU0VfVVJMIikKfQoKbW9kZWwgVG9kbyB7CiAgaWQgICAgICAgIFN0cmluZyAgIEBpZCBAZGVmYXVsdCh1dWlkKCkpCiAgdGl0bGUgICAgIFN0cmluZwogIGNvbXBsZXRlICBCb29sZWFuCiAgY3JlYXRlZEF0IERhdGVUaW1lIEBkZWZhdWx0KG5vdygpKQogIHVwZGF0ZWRBdCBEYXRlVGltZSBAdXBkYXRlZEF0Cn0K",
-  "inlineSchemaHash": "2ab5dbd6e8c51b0c641102a984ffc71c3a065ee1d5f11886b0bb53c5dbdf014a",
-  "noEngine": false
+  "inlineSchemaHash": "2ab5dbd6e8c51b0c641102a984ffc71c3a065ee1d5f11886b0bb53c5dbdf014a"
 }
 
 const fs = require('fs')
